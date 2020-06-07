@@ -59,10 +59,10 @@ const RenderRegistrasi = ({ dataRegistrasi, ...props}) => {
           <Form.Label>name</Form.Label>
           <Form.Control  type="text" onChange={(e) => setName(e.target.value)} />
         </Form.Group>
+        
       </Form.Row>
-
       <Form.Group id="formGridCheckbox">
-        <Form.Check type="checkbox" label="Check me out" />
+        <Form.Check type="checkbox" label="Check me out " />
       </Form.Group>
 
       <Button variant="primary" type="submit">

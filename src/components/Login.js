@@ -8,7 +8,7 @@ const RenderLogin = ({data}) => {
   const onSubmitLogin =(e) => {
     e.preventDefault();
     if ((email === data.email) && password === data.password){
-      alert ("login saya")
+      alert ("login sudah sesuai")
     } else {
       alert ("gagal login")
     }
@@ -31,7 +31,7 @@ const RenderLogin = ({data}) => {
                     </Form.Group>
                 </Form.Row>
                 <Form.Group controlId="formBasicCheckbox">
-                    <Form.Check type="checkbox" label="Check me out" />
+                    <Form.Check type="checkbox" label="check me out " />
                 </Form.Group>
 
                 <Button variant="primary" type="submit">Submit</Button>
